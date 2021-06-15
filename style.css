@@ -42,6 +42,7 @@ nav img {
     color: #1c1f30;
     text-decoration: none;
     font-size: 13px;
+    font-weight: 500;
 }
 
 .nav-links ul li a::after {
@@ -58,4 +59,24 @@ nav img {
 .nav-links ul li a:hover::after {
 
     width: 100%;
+}
+
+.text-box {
+    width: 90%;
+    color: #f4f4f4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 10px 0px 40px;
+    font-size: 14px;
+    color: #f4f4f4;
 }
